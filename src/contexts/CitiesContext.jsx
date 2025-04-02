@@ -6,7 +6,7 @@ import {
   useCallback,
 } from "react";
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "";
 
 const CitiesContext = createContext();
 
@@ -76,7 +76,7 @@ function CitiesProvider({ children }) {
       dispatch({ type: "loading" });
       try {
         // setIsLoading(true);
-        const res = await fetch(`${BASE_URL}/cities`);
+        const res = await fetch("/api/server");
         const data = await res.json();
         // setCities(data);
         dispatch({ type: "cities/loaded", payload: data });
@@ -98,7 +98,7 @@ function CitiesProvider({ children }) {
       try {
         // setIsLoading(true);
         dispatch({ type: "loading" });
-        const res = await fetch(`${BASE_URL}/cities/${id}`);
+        const res = await fetch(`/api/server?id=${id}`);
         const data = await res.json();
         // setCurrentCity(data);
 
@@ -117,7 +117,7 @@ function CitiesProvider({ children }) {
     dispatch({ type: "loading" });
     try {
       // setIsLoading(true);
-      const res = await fetch(`${BASE_URL}/cities`, {
+      const res = await fetch(`/api/server`, {
         method: "POST",
         body: JSON.stringify(newCity),
         headers: {
@@ -143,7 +143,7 @@ function CitiesProvider({ children }) {
     dispatch({ type: "loading" });
     try {
       // setIsLoading(true);
-      await fetch(`${BASE_URL}/cities/${id}`, {
+      await fetch(`/api/server?id=${id}`, {
         method: "DELETE",
       });
 
