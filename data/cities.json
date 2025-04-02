@@ -1,51 +1,27 @@
 {
   "cities": [
     {
-      "id": "80f4",
-      "cityName": "Kandahar",
-      "country": "",
-      "emoji": "",
-      "date": "2024-06-22T13:38:52.326Z",
-      "notes": "loved",
-      "position": {
-        "lat": "41.42625319507272",
-        "lng": "-5.712890625000001"
-      }
-    },
-    {
-      "id": "b934",
-      "cityName": "Herat",
-      "country": "",
-      "emoji": "",
-      "date": "2024-06-25T15:39:49.897Z",
-      "notes": "lo",
-      "position": {
-        "lat": "40.59727063442027",
-        "lng": "-8.415527343750002"
-      }
-    },
-    {
-      "id": "615f",
-      "cityName": "Kabul",
-      "country": "",
-      "emoji": "",
-      "date": "2025-04-02T16:35:16.876Z",
+      "id": "c917",
+      "cityName": "Montejo de Tiermes",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-04-02T17:02:24.294Z",
       "notes": "",
       "position": {
-        "lat": "37.89219554724437",
-        "lng": "-2.1533203125000004"
+        "lat": "41.36031866306708",
+        "lng": "-3.27392578125"
       }
     },
     {
-      "id": "New York",
-      "cityName": "df",
-      "country": "",
-      "emoji": "",
-      "date": "2025-04-02T16:35:29.461Z",
+      "id": "a56d",
+      "cityName": "Ameur Chamalia",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2025-04-02T17:05:47.056Z",
       "notes": "",
       "position": {
-        "lat": "37.94419750075404",
-        "lng": "-6.723632812500001"
+        "lat": "34.379712580462204",
+        "lng": "-6.152343750000001"
       }
     }
   ]
